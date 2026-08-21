@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-dualhook-receiver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal inbound webhook receiver for the Dualhook Webhook Override -> Zoho CRM path (SA5-T15a).",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  }
+}
